@@ -6,7 +6,7 @@ import { AiOutlineLike } from "react-icons/ai";
 import { abbreviateNumber } from "js-abbreviation-number";
 
 import { BsFillCheckCircleFill } from "react-icons/bs";
-import SuggestedVideo from "./suggestedVideo";
+import SuggestedVideo from "./SuggestedVideo.jsx";
 
 function PlayingVideo() {
   const [video, setVideo] = useState();
